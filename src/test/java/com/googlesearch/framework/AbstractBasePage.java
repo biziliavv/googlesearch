@@ -1,13 +1,13 @@
-package com.automationpanda.example.framework;
+package com.googlesearch.framework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public abstract class AbstractPandaPage {
+public abstract class AbstractBasePage {
 
     private WebDriver driver;
 
-    public AbstractPandaPage(WebDriver driver) {
+    public AbstractBasePage(WebDriver driver) {
         this.driver = driver;
     }
 
